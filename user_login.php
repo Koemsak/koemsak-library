@@ -9,7 +9,7 @@
         session_start();
         $_SESSION['username'] = $_POST['username'];
         if($isValid) {
-            header("Location: http://localhost/koemsak-library/?page=home");
+            header("Location: https://koemsak-library.herokuapp.com");
         } else {
             $messageError = "Incorrect password or username";
         }
